@@ -5,24 +5,21 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Button from "../components/button"
 
-class IndexPage extends React.Component {
+class AboutPage extends React.Component {
   render() {
-    const siteTitle = "Home"
+    const siteTitle = "About NoK"
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
         <SEO
-          title="Home"
+          title="About"
           keywords={[`blog`, `gatsby`, `javascript`, `react`]}
         />
-        <h1>
-          H1 title
-        </h1>
-        <p>Body copy.</p>
         
+        This is about page
       </Layout>
     )
   }
 }
 
-export default IndexPage
+export default AboutPage
