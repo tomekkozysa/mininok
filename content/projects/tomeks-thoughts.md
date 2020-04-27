@@ -6,6 +6,6 @@ description: |-
   It' shouldn't require dramatic formatting
 
   Thank you!
-featuredimage: /assets/download-57-.png
+featuredimage: /assets/download-49-.png
 ---
 
